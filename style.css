@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top__title {
+    text-transform:uppercase;
+}
+
+.colored__text {
+    color: #F16D7F
+}
