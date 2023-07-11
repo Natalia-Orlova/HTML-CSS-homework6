@@ -4,6 +4,10 @@
     box-sizing: border-box; 
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 .center {
     width: 1600px;
     margin: 0 auto;
@@ -39,11 +43,24 @@
     align-items: center;
     text-transform:uppercase;
     margin-right: 331px;
-    
 }
 
 .top__line {
     margin-right: 16px;
+}
+
+.title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.subtitle {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
 
 .colored__text {
@@ -67,11 +84,15 @@
 
 .background {
     position: absolute;
+    top: 0px;
 }
 
 .offers__text {
     position:absolute;
     text-transform: uppercase;
+}
+
+.white__text {
     color: #FFF;
     text-align: center;
     font-size: 16px;
@@ -79,10 +100,13 @@
     font-weight: 400;
     line-height: normal;
 }
-
 .pink__text {
-    font-size: 24px;
     color: #F16D7F;
+    font-size: 24px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .content {
@@ -93,21 +117,22 @@
 
 }
 
-.content__header {
+.content__title {
+    color: #222;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-align: center;
 }
 
-.content__title {
-    color: #222;
-    font-size: 30px;
-}
-
 .content__subtitle {
     color: #9F9F9F;
     font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
 }
 
 .item {
@@ -139,6 +164,7 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    max-width: 315px;
 }
 
 .item__price {
@@ -150,7 +176,9 @@
 }
 
 .content__btn {
-    padding: 0px 694px 60px 694px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
 }
 .btn {
     color: #F26376;
