@@ -25,21 +25,52 @@
 .right__menu {
     display: flex;
     gap: 31px;
-    
-    /* padding-top: 26px;
-    padding-bottom: 20px; */
+}
 
+.top {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F1E4E6;
+    margin-bottom: 65px;
 }
 
 .top__title {
+    display:flex;
+    align-items: center;
     text-transform:uppercase;
+    margin-right: 331px;
+    
+}
+
+.top__line {
+    margin-right: 16px;
 }
 
 .colored__text {
     color: #F16D7F
 }
 
+.offers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.offer__item {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.background {
+    position: absolute;
+}
+
 .offers__text {
+    position:absolute;
     text-transform: uppercase;
     color: #FFF;
     text-align: center;
